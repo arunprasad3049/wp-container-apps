@@ -25,4 +25,4 @@ jobs:
          az containerapp update \
            --name <your-container-app-name> \
            --resource-group <your-resource-group> \
-           --image <your-acr-name>.azurecr.io/wordpress:latest
+           --image <your-acr-name>.azurecr.io/wordpress:production
